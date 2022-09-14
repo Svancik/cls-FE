@@ -1,0 +1,98 @@
+
+    .footer{
+        width: 100%;        
+        background-color: black;
+        margin-top: 10px;
+        padding-top: 20px;
+          .footer_container{
+            width:70%;
+            
+            margin: auto;        
+            text-align: left;  
+
+            h3{
+                color: whitesmoke;        
+                margin: 0px;
+                font-size: 2.3vh;
+                margin-top: 5px;
+            }
+    
+            h4{
+                color: #63bdd3;         
+                font-weight:400;
+                font-size: 1.5vh;
+                margin: 10px 0px;       
+            }
+    
+            .socialIcons{
+            display: flex;
+            flex-direction: row;
+                
+            .icon{         
+                
+                width: 32px;
+                color: white;
+                filter: invert(100%) sepia(0%) saturate(2216%) hue-rotate(207deg) brightness(113%) contrast(101%);
+            
+                img{
+                    height: 32px;
+                    text-align: left;
+                    margin-left: -0.75vw;
+                }
+            }
+    
+            }
+    
+        } 
+    
+    }
+
+@media (min-width: 768px){
+.footer{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    margin-top: 10px;
+    padding-top: 20px;
+      .footer_container{
+        width: 85%;
+        margin: auto;        
+        text-align: left;  
+        h3{
+            color: whitesmoke;        
+            margin: 0px;
+            font-size: 2.3rem;
+            margin-top: 5px;
+        }
+
+        h4{
+            color: #63bdd3;           
+            font-weight:400;
+            font-size: 1.1rem;
+            margin: 10px 0px;
+   
+        }
+
+        .socialIcons{
+        display: flex;
+        flex-direction: row;
+            
+        .icon{         
+            
+            width: 32px;
+            color: white;
+            filter: invert(100%) sepia(0%) saturate(2216%) hue-rotate(207deg) brightness(113%) contrast(101%);
+        
+            img{
+                max-height: 32px;
+                text-align: left;
+                margin-left: -10px;
+            }
+        }
+
+        }
+
+    } 
+
+}
+}

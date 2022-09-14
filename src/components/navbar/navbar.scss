@@ -1,0 +1,62 @@
+.hidden-phone {
+        display:none;
+}
+
+
+@media (min-width: 768px) { 
+
+.hidden-phone{
+    display:block;
+}
+
+.navbar{
+    width:100%;
+    margin: auto;   
+    height: 7.5vh;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 999;
+    a{
+        text-decoration: none;
+        color: var(--button-color);     
+    
+        &:hover{
+            color: #63bdd3;
+            cursor: pointer;
+        }    
+    }  
+
+    .navbar__container{
+        width: 60%;
+        display: flex;
+        align-items: center;       
+        margin: auto;
+        flex-direction: row;
+
+        .navbar__container__left{      
+    
+            img{                
+                height: 6vh;     
+                width: 8vh;        
+            }
+        }
+        .navbar__container__right{
+            
+            width: 100%;
+            text-align: center;
+       
+            span{
+                padding-left: 4vw;               
+                font-size: 1.3vw;
+                font-weight: 600;
+                font-family: 'Roboto', sans-serif;
+                color: black;      
+            }
+
+        }   
+
+    }
+}
+}

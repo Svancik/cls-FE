@@ -1,0 +1,139 @@
+    .hidden-phone{
+        display:none;
+    } 
+
+    .featured{
+        width: 88%;  
+            
+        margin: auto;
+        
+    }
+
+    .featured_container__header{
+        text-align: center;
+        img{
+            height: 50%;
+            width: 50%;
+        }
+    }
+
+    .featured_container__description{
+        width: 95%;
+        
+        text-align: justify;
+        margin-left: 0;
+        margin: auto;
+    }
+ 
+    h2{
+        text-align: center;
+        font-size: 4vh;
+    }
+
+    span{
+        text-align: justify;
+        font-size: 1.1rem;
+        line-height: 150%;
+    }
+
+    hr{
+        width: 100%;
+    }
+
+
+@media (min-width: 768px) { 
+
+
+.hidden-phone{
+    display: block;
+}
+
+.hidden-PC{
+    display: none;
+}
+
+.featured{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+    overflow-x: hidden;
+    
+    .featured__photo{        
+        img{
+            -webkit-mask-image: linear-gradient(to bottom, black 45%, transparent 90%);
+            width: 100%;
+            height: 75vh;
+            object-fit: cover;
+            object-position: 15% 15%;
+            margin-left: -7px;            
+        }
+    }
+
+    .featured__container{
+        width: 90%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: auto;  
+        
+        hr{
+            width: 66%;
+        }
+
+        h2{
+            text-align: center;
+            font-size: 2.5vw;    
+            padding-bottom: 2vw;
+            
+        }
+
+        .featured_container__header{
+            justify-content: center;
+            display: flex;
+             
+
+            h1{
+                text-align: center;              
+                font-family: 'Roboto', sans-serif;
+                font-size: 5.5vw;
+                color: #63bdd3;
+               margin: 0;
+               padding-bottom: 2vw;
+            }
+
+            img{
+                width: 1.7rem;
+                object-fit: contain;
+                z-index: 999;
+                position: absolute;
+         
+            }
+        }
+
+        .featured_container__description{
+       
+            width: 100%;
+            margin: auto;
+            justify-content: center;           
+            padding-bottom: 4vw;  
+            text-align: left;        
+            
+        
+               
+                span{
+                    padding-top: 0px;
+                    margin-top: 0;
+                    font-size: 1.25vw;
+                    line-height: 150%;
+                    }
+                }    
+            
+            
+        }    
+    }
+}
+
+
+

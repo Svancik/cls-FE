@@ -1,0 +1,32 @@
+:root{
+    --main-color: pink;
+    --color-text-primary: #63bdd3;
+    --color-text-secondary: #1C9993;    
+    --phone_max: 1100px;    
+    --pc_max: 1920px;
+    --pc-2k_max: 2560px;
+
+}
+@media (max-width: 768px) { 
+    body{
+overflow-x: hidden;
+width: 100%;
+    }
+
+    hr{
+        display: none;
+    }
+}
+
+hr{
+    display: block;
+}
+
+html, body {    
+        scroll-behavior: smooth;
+    scroll-padding-top: 7.25vh;
+    
+}
+
+
+

@@ -1,0 +1,103 @@
+
+ 
+.candidates__container {
+ 
+  padding-bottom: 2rem;
+    width: 90%;
+    margin: auto;
+    margin-left: 2vh;
+    display: grid;
+    /*pomocí repeat se budou hodnoty dle čísla v metodě tolikrát opakovat*/
+      
+    grid-template-rows: repeat(1, 2fr);
+    grid-gap: 5px;
+    height: 100%;
+
+  
+    justify-items: center; /*Zarovná itemy uvnitř gridu horizontálně */
+    align-items: center; /*Zarovná itemy uvnitř gridu vertikálně */
+    justify-content: center; /*Zarovná CELÝ grid horizontálně*/
+    align-content: top; /*Zarovná CELÝ grid vertikálně */
+  }
+
+  .candidate__big {
+    grid-area: 1 / 1 / 3 / 3;
+  }
+
+  img,
+  video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+  }
+  
+  .galleryCell {
+    width: 100%;
+    height: 100%;
+    transition:0.3s ease-in-out;
+   
+  &:hover{
+    transform: scale(1.02);
+    cursor: pointer;
+  }
+
+}
+
+
+
+@media (min-width: 768px) { 
+
+
+.candidates__container {
+  margin-right: 0;
+  padding-bottom: 7vw;
+    width: 90%;
+    margin: auto;
+    display: grid;
+    /*pomocí repeat se budou hodnoty dle čísla v metodě tolikrát opakovat*/
+     grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 1fr); 
+    grid-gap: 15px;
+    height: 100%;
+
+
+  
+    justify-items: center; /*Zarovná itemy uvnitř gridu horizontálně */
+    align-items: center; /*Zarovná itemy uvnitř gridu vertikálně */
+    justify-content: center; /*Zarovná CELÝ grid horizontálně*/
+    align-content: top; /*Zarovná CELÝ grid vertikálně */
+  }
+
+  .candidate__big {
+    grid-area: 1 / 1 / 3 / 3;
+  }
+
+  img,
+  video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+  }
+  
+  .galleryCell {
+    width: 100%;
+    height: 100%;
+    transition:0.3s ease-in-out;
+   
+  &:hover{
+    transform: scale(1.02);
+    cursor: pointer;
+  }
+
+}
+
+}
+
+@media (min-width: 2000px) { 
+  .candidates__container{
+      width: 60%;
+  }
+}
+  
