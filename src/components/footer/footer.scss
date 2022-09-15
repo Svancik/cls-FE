@@ -5,22 +5,21 @@
         margin-top: 10px;
         padding-top: 20px;
           .footer_container{
-            width:70%;
-            
+            width:90%;            
             margin: auto;        
             text-align: left;  
 
             h3{
                 color: whitesmoke;        
                 margin: 0px;
-                font-size: 2.3vh;
+                font-size: 2.3vmin;
                 margin-top: 5px;
             }
     
             h4{
                 color: #63bdd3;         
                 font-weight:400;
-                font-size: 1.5vh;
+                font-size: 1.5vmin;
                 margin: 10px 0px;       
             }
     
@@ -37,7 +36,7 @@
                 img{
                     height: 32px;
                     text-align: left;
-                    margin-left: -0.75vw;
+                    margin-left: -1vh;
                 }
             }
     
@@ -61,14 +60,14 @@
         h3{
             color: whitesmoke;        
             margin: 0px;
-            font-size: 2.3rem;
+            font-size: 3vmin;
             margin-top: 5px;
         }
 
         h4{
             color: #63bdd3;           
             font-weight:400;
-            font-size: 1.1rem;
+            font-size: 2.25vmin;
             margin: 10px 0px;
    
         }
@@ -79,12 +78,13 @@
             
         .icon{         
             
-            width: 32px;
+           
             color: white;
             filter: invert(100%) sepia(0%) saturate(2216%) hue-rotate(207deg) brightness(113%) contrast(101%);
         
             img{
-                max-height: 32px;
+                height: 38px;
+                width: 38px;
                 text-align: left;
                 margin-left: -10px;
             }

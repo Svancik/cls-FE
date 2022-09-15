@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import React from "react";
 import {
-  BrowserRouter,
+  HashRouter,
   Routes,
   Route,
   Navigate
@@ -17,12 +17,12 @@ import './app.scss';
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <HashRouter hashType="hashbang" >
         <Routes>
            <Route exact path="/" element={<Home/>}/>   
-           <Route path="/candidate/:id" element={<Politic/>}/>           
+           <Route path="/candidate/:id" element={<Politic/>}/>    
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </>
   );
 }

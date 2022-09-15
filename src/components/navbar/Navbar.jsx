@@ -12,16 +12,16 @@ export default function Navbar() {
         </div>
         <div className="navbar__container__right">
           <span>
-            <a href="#uvod">Kdo jsme</a>
+            <Link to="#uvod">Kdo jsme</Link>
           </span>
           <span>
-            <a href="#kandidati">Kandidáti</a>
+            <Link to="#kandidati">Kandidáti</Link>
           </span>
           <span>
-            <a href="#programme">Program</a>
+            <Link to="#programme">Program</Link>
           </span>
           <span>
-            <a href="#kontakt">Kontakt</a>
+            <Link to="#kontakt">Kontakt</Link>
           </span>
         </div>
       </div>

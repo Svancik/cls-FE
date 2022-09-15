@@ -8,7 +8,7 @@ export default function Featured() {
     <div className="featured">
       <div className="featured__photo item hidden-phone">
         <div className="img-wrap">
-          <img src={require("../../assets/featured.png")} />
+          <img src={require("../../assets/featured.webp")} />
         </div>
       </div>
       <div className="featured__container">

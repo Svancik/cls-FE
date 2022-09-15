@@ -14,29 +14,31 @@ export default function Profile({ id }) {
   }, []);
 
   return (
-    <div className="profile">
-      <header className="profile__header">
-        <h1>{person.title}</h1>
-      </header>
-      <div className="profile__container">
-        <div className="profile__container__info">
-          <div className="profile__container__info__img">
-            <img src={require("../../assets/" + person.faceImg)} />
+    <>
+      <div className="profile">
+        <header className="profile__header">
+          <h1>{person.title}</h1>
+        </header>
+        <div className="profile__container">
+          <div className="profile__container__info">
+            <div className="profile__container__info__img">
+              <img src={require("../../assets/" + person.faceImg)} />
+            </div>
+            <div className="profile__container__info__quote">
+              <span className="profile__container__info__quote_preText">
+                {person.preMottoText}
+              </span>
+              <br />
+              <span className="profile__container__info__quote__text" lang="de">
+                {person.mottoText}
+              </span>
+              <br />
+            </div>
           </div>
-          <div className="profile__container__info__quote">
-            <span className="profile__container__info__quote_preText">
-              {person.preMottoText}
-            </span>
-            <br />
-            <span className="profile__container__info__quote__text" lang="de">
-              {person.mottoText}
-            </span>
-            <br />
-          </div>
-        </div>
 
-        <div className="profile__container__description">
-          <span style={{ whiteSpace: "pre-line" }}>{person.longText}</span>
+          <div className="profile__container__description">
+            <span style={{ whiteSpace: "pre-line" }}>{person.longText}</span>
+          </div>
         </div>
       </div>
       <div className="profile__button">
@@ -44,6 +46,6 @@ export default function Profile({ id }) {
           <button>Zpět</button>
         </Link>
       </div>
-    </div>
+    </>
   );
 }
