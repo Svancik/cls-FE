@@ -108,7 +108,7 @@ li{
 
     h2{
         text-align: center;
-        font-size: 2.5vw;
+        font-size: 4vmin;
         margin-bottom: 0;
     }
 
@@ -127,14 +127,14 @@ li{
     margin: auto;  
 
     h3{
-        font-size: 2vw; 
+        font-size: 3vmin; 
         color: black;
         margin-left: 1vh;
         text-align: left;
 
         span{
             color: #63bdd3;
-            font-size: 2.15vw; 
+            font-size: 3.25vmin; 
         }
 
     }    
@@ -142,17 +142,17 @@ li{
 }
 
 .programme__container__left{
-    padding: 5vh;
+    padding: 5vmin;
 flex: 1;
 text-align: left;
 
 b{
     color: #63bdd3;
-    font-size: 1.30vw;
+    font-size: 2.25vmin;
 }  
 
 li{
-    font-size: 1.25vw;
+    font-size: 2vmin;
     list-style: none;
     padding-bottom: 1vw;
 }
@@ -160,10 +160,10 @@ li{
 }
 
 .programme__container__right{
-    padding: 5vh;
+    padding: 5vmin;
     flex: 1;
     text-align: left;
-    font-size: 1.25vw;
+    font-size: 2vmin;
 
     ul {
         list-style: none; /* Remove default bullets */

@@ -24,6 +24,9 @@ hr{
   height: 10vh;
   text-align: center;
   margin: auto;
+  position: absolute;    
+left: 0;
+bottom: 0;
 
   
  
@@ -34,10 +37,10 @@ button{
   padding: 1rem;
  
   float: right;
-  font-size: 5.6vw;
+  font-size: 5vmin;
  width: 100%;
   height: 100%;
- 
+  border: none;
   background-color: #63bdd3;;
   color: white;
   font-weight: 500;
@@ -57,7 +60,7 @@ button{
 
 
 .profile__header > h1{
-  font-size: 4vh;
+  font-size: 7.5vmin;
   text-align: center;
   margin-bottom: 0;
   padding-bottom: 0;
@@ -115,12 +118,12 @@ filter: drop-shadow(4px 4px 4px #63bdd3);
   color: #63bdd3;   
   justify-content: center;
   align-items: center;   
-  font-size: 2.5vh;
+  font-size: 4vmin;
   }
 
 .profile__container__info__quote__text{
   margin-left: 4vw;
-   font-size: 3.5vh;
+   font-size: 5vmin;
     color: rgba(10, 9, 9, 0.551);
     font-style: italic;
   }
@@ -163,22 +166,26 @@ font-style: normal;
 
 @media (min-width: 768px) { 
 
+  .profile{
+    padding-bottom: 0.5vh;
+  }
 
 
   button{
     float: right;
-    margin-top: 2vw;
+    margin-top: 2vmin;
     width: 33%;
+    border: 1px solid black;
   }
   
   .profile__header > h1{
-    font-size: 3.5vw; 
-    margin-top: 3vh;  }
+    font-size: 7.5vmin; 
+    margin-top: 2vmin;  }
 
   .profile__container{
-    width: 90%;
+    width: 88%;
     margin: auto;
-    margin-top: 1.5rem;
+    margin-top: 1.5vmin;
     padding-bottom: 1vh;
     box-shadow: 0 0 20px 10px #f3f3f3;
   }
@@ -209,18 +216,18 @@ font-style: normal;
     flex: 3.75;
     display: flex;
     flex-direction: column;
-    padding-left: 2vw;
+    padding-left: 5vw;
   }
 
   .profile__container__info__quote_preText {  
-    font-size: 1.5vw;
+    font-size: 3vmin;
 
     }
   
   .profile__container__info__quote__text{
-    margin-left: 6vw;
-     font-size: 2vw;
-     
+    margin-left: 2.5vmin;
+     font-size: 4vmin;
+   text-align: left;
     }
  
 
@@ -229,7 +236,7 @@ font-style: normal;
     margin-bottom: 1vw;
     
     span{
-      font-size: 1.075vw;
+      font-size: 2vmin;
     }  
   }
 
@@ -241,7 +248,7 @@ font-style: normal;
     margin-right: 7vw;
     margin-top: 1.5vw;
     margin-bottom: 2vw;
-    font-size: 1.5vw;
+    font-size: 3.25vmin;
     font-weight: 500;
     width: 20%;
 
@@ -253,8 +260,3 @@ font-style: normal;
 
 }
 
-@media (min-width: 2000px) { 
-  .profile{
-      margin: auto;
-  }
-}
