@@ -151,11 +151,12 @@ font-style: normal;
     margin: auto;
     margin-top: 2.5vh;
     margin-bottom: 12vh;
-   
+    font-size: 2vh;
     height: 100%;
-    text-align: justify;
+    text-align: justify;  
+    span{
     line-height: 150%;
-    
+  }
   
   }
 
@@ -220,13 +221,13 @@ font-style: normal;
   }
 
   .profile__container__info__quote_preText {  
-    font-size: 3vmin;
+    font-size: 1.5vw;
 
     }
   
   .profile__container__info__quote__text{
     margin-left: 2.5vmin;
-     font-size: 4vmin;
+    font-size: 2vw;
    text-align: left;
     }
  
@@ -236,7 +237,7 @@ font-style: normal;
     margin-bottom: 1vw;
     
     span{
-      font-size: 2vmin;
+      font-size: 1.1vw;
     }  
   }
 
@@ -248,7 +249,7 @@ font-style: normal;
     margin-right: 7vw;
     margin-top: 1.5vw;
     margin-bottom: 2vw;
-    font-size: 3.25vmin;
+    font-size: 1.75vw;
     font-weight: 500;
     width: 20%;
 
